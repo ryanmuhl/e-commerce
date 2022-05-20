@@ -52,10 +52,20 @@ router.get('/:id', async (req, res) => {
     });
 });
 
-router.post('/', (req, res) => {
-  // create a new category
-});
+// create a new category
+// The `/api/categories` endpoint
+router.post('/', async (req, res) => {
+  Category.create({
+    category_name: req.body.category_name,
+    
 
+  })
+    .then(dbPostData => res.json(dbPostData))
+    .catch(err => {
+      console.log(err);
+      res.status(500).json(err);
+    });
+});
 router.put('/:id', (req, res) => {
   // update a category by its `id` value
 });
