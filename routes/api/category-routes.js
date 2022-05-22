@@ -10,7 +10,7 @@ router.get('/', async (req, res) => {
     {
       include: {
         model: Product,
-        attributes: ['product_name'],
+        
       }
     }
 
@@ -34,7 +34,6 @@ router.get('/:id', async (req, res) => {
     include: [
       {
         model: Product,
-        attributes: ['category_id']
       },
 
     ]
@@ -100,7 +99,7 @@ router.delete('/:id', async (req, res) => {
   })
     .then(dbCategoryData => {
       if (!dbCategoryData) {
-        res.status(404).json({ message: 'Unble to Delete Due to Wrong ID' });
+        res.status(404).json({ message: 'No Category found with this id' });
         return;
       }
       res.json(dbCategoryData);
