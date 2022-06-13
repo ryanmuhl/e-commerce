@@ -17,13 +17,20 @@ Create a back end for my e-commerce website that uses the latest technolgies so 
 * Managing foreigh Keys and how to join tables is difficult concept to grasp.  This is a concept that will hopefully get easier with more practice and coding scenarios.
 
 ## Built With
-* MYSQL
+* MYSQL2
 * NODE.JS
 * Insomnia
 * dotenv
 * express
 * nodemon
 * sequelize
+
+## Install/Run Instructions
+* Log into mySQL via terminal
+* Run source db/schema.sql => then type use ecommerce_db
+* Open new terminal and run node seeds/index.js
+* Run node server.js to start server
+* must run npm install (install dependencies)
 
 
 ## Repository
