@@ -10,7 +10,6 @@ router.get('/', (req, res) => {
       include: [
         {
           model: Product,
-          through: ProductTag,
         },
       ]
     }
@@ -31,7 +30,6 @@ router.get('/:id', (req, res) => {
     },
     include: [{
       model: Product,
-      through: ProductTag,
     },
     ]
   })
@@ -63,11 +61,8 @@ router.post('/', (req, res) => {
 
 // update a tag's name by its `id` value
 router.put('/:id', (req, res) => {
-  Tag.update(
-    {
-      tag_name: req.body.tag_name
-    },
-    {
+  Tag.update(req.body, {
+    
       where: {
         id: req.params.id
       }
