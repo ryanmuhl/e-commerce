@@ -31,6 +31,24 @@ https://github.com/ryanmuhl/e-commerce
 
 ## Screencastify
 
+### Create Schema/Seed Database/Start Application
+https://drive.google.com/file/d/1bfXntLXU0icGZnfC7tCeXCXchedxqvpW/view
+
+### Get Routes for All Categories/All Products/All Tags
+https://drive.google.com/file/d/185ocXaLX-31T4A09Wr4-3NLlVXn5REiL/view
+
+### Get Routes for Single Category/Single Product/Single Tag
+https://drive.google.com/file/d/1mrtsStnHhH3tAO6G895z5VSHiBFX7J8M/view
+
+### POST routes for Categories/Products/Tags
+https://drive.google.com/file/d/1q5lBvWW6cMitf38mXHbrhusopAElqNG7/view
+
+### PUT routes for Categories/Products/Tags
+https://drive.google.com/file/d/1eXRxUudsAgxMryYOFCdfIhJRljasEPpf/view
+
+### DELETE routes for Categories/Products/Tags
+https://drive.google.com/file/d/1ZO1yurAgRqlv3ey43dX8ct1qTp7C10V7/view
+
 
 ## Contribution
 Created/Designed by Ryan M. Uhl
